@@ -1,13 +1,6 @@
 # Abstrak
-<br></br>
-	Rokok termasuk zat adiktif karena dapat menyebabkan ketagihan yang berdampak 
-sulit untuk berhenti dan menjadi salah satu penyebab kematian utama di dunia.Banyak 
-jenis penyakit yang bisa mengancam kesehatan akibat rokok pada perokok aktif atau 
-perokok pasif dan juga bisa mengganggu masyarakat lainnya saat melakukan aktivitas 
-pola hidup sehat terutama di kawasan tanpa asap rokok. Hal ini lah yang menjadi 
-motivasi dasar pada penelitian ini untuk membangun model penerapan deep learning
-pada klasifikasi citra untuk mendeteksi orang merokok dan tidak merokok, berbasis
-website agar dapat digunakan untuk melakukan monitoring pada kawasan tanpa asap rokok. 
+</br>
+	Rokok termasuk zat adiktif karena dapat menyebabkan ketagihan yang berdampak sulit untuk berhenti dan menjadi salah satu penyebab kematian utama di dunia. Banyak jenis penyakit yang bisa mengancam kesehatan akibat rokok pada perokok aktif atau perokok pasif dan juga bisa mengganggu masyarakat lainnya saat melakukan aktivitas pola hidup sehat terutama di kawasan tanpa asap rokok. Hal ini lah yang menjadi motivasi dasar pada penelitian ini untuk membangun model penerapan deep learning pada klasifikasi citra untuk mendeteksi orang merokok dan tidak merokok, berbasis website agar dapat digunakan untuk melakukan monitoring pada kawasan tanpa asap rokok. 
 </br></br>
 	Metode penelitian yang digunakan dalam penelitian ini memanfaatkan metode 
 Convolutional Neural Network dengan arsitektur MobileNetV2 dengan menggunakan dataset 
