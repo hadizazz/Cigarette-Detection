@@ -1,29 +1,31 @@
 # Abstrak
-	Coronavirus disease 2019 (COVID-19) merupakan penyakit infeksi
-pernapasan akut yang dapat mematikan, dan dapat menyebar dengan sangat mudah.
-Salah satu bentuk penanganan yang dapat dilakukan oleh setiap individu adalah
-penggunaan masker. Saat manusia terbatuk, bersin dan berbicara dapat
-mengeluarkan droplet berupa air liur. Penggunaan masker dapat mereduksi
-perpindahan droplet yang keluar dari mulut ke orang lain.
-	Penelitian ini bertujuan untuk melakukan prediksi kepada seseorang apakah
-dia menggunakan masker atau tidak menggunakan masker dengan memanfaatkan
-model deep learning convolution neural network. Dengan menggunakan dataset
-berupa foto orang yang menggunakan masker dan tidak menggunakan masker
-diolah melalu tahap preprocessing, augmentasi data, dan pemodelan. Dari hasil
-model ini dapat diprediksi apakah seseorang menggunakan masker atau tidak
-menggunakan masker
-	Dari hasil penelitian didapat nilai akurasi dari validasi model sebesar 100%
-dan nilai validation loss sebesar 0,14%. Dan akurasi dari pengujian sebesar 93,3%
-jika dilakukan dengan kondisi penguji yaitu menggunakan masker dengan benar
-dan tidak menggunakan masker. Dari hasil tersebut dapat disimpulkan bahwa
-pemodelan untuk mendeteksi penggunaan masker sudah dapat berjalan dengan
-sangat baik untuk pendeteksian penggunaan masker
+	Rokok termasuk zat adiktif karena dapat menyebabkan ketagihan yang berdampak 
+sulit untuk berhenti dan menjadi salah satu penyebab kematian utama di dunia.Banyak 
+jenis penyakit yang bisa mengancam kesehatan akibat rokok pada perokok aktif atau 
+perokok pasif dan juga bisa mengganggu masyarakat lainnya saat melakukan aktivitas 
+pola hidup sehat terutama di kawasan tanpa asap rokok. Hal ini lah yang menjadi 
+motivasi dasar pada penelitian ini untuk membangun model penerapan deep learning
+pada klasifikasi citra untuk mendeteksi orang merokok dan tidak merokok, berbasis
+website agar dapat digunakan untuk melakukan monitoring pada kawasan tanpa asap rokok. 
+	
+	Metode penelitian yang digunakan dalam penelitian ini memanfaatkan metode 
+Convolutional Neural Network dengan arsitektur MobileNetV2 dengan menggunakan dataset 
+berupa gambar merokok dan tidak merokok, kemudian diolah melalui tahap preprocessing 
+yaitu berupa augmentasi data, pemodelan dan implementasi.
+ 
+	Penelitian ini dibangun berbasis website menggunakan bahasa pemrograman 
+Python dengan framework flask untuk merancang interface. Aplikasi yang dibangun 
+memiliki fitur yang menampilkan tentang penelitian, penjelasan model, dataset,
+dan halaman testing dengan menggunakan real time webcam atau input file. Hasil 
+dari pengujian akan menunjukkan nilai akurasi 92.30%, presisi sebesar 95.65%, 
+dan recall sebesar 88%. Hal ini menunjukkan sistem layak untuk digunakan.
 
 ## Framework
-- Keras/Tensorflow
-- OpenCV
-- Flask
-- MobilenetV2
+1.Tensorflow
+2.MobilenetV2
+3.Flask
+4.OpenCV
+5.Matplotlib
 
 ## Cara running aplikasi
 1. Lakukan instalasi packages dengan menggunakan 2 cara ini:
@@ -39,7 +41,7 @@ python wsgi.py
 ```
 
 ## Data
-Dataset dapat didownload pada website resmi kaggle  <a href="https://www.kaggle.com/omkargurav/face-mask-dataset">disini</a>.
+Dataset dapat didownload pada website resmi kaggle  <a href="https://www.kaggle.com/code/raj713335/cigarette-smoker-detection/data">disini</a>.
 
 ##Referensi
 https://github.com/GalileoParise/CV-Mask-detection
