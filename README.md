@@ -7,12 +7,10 @@ pola hidup sehat terutama di kawasan tanpa asap rokok. Hal ini lah yang menjadi
 motivasi dasar pada penelitian ini untuk membangun model penerapan deep learning
 pada klasifikasi citra untuk mendeteksi orang merokok dan tidak merokok, berbasis
 website agar dapat digunakan untuk melakukan monitoring pada kawasan tanpa asap rokok. 
-	
 	Metode penelitian yang digunakan dalam penelitian ini memanfaatkan metode 
 Convolutional Neural Network dengan arsitektur MobileNetV2 dengan menggunakan dataset 
 berupa gambar merokok dan tidak merokok, kemudian diolah melalui tahap preprocessing 
 yaitu berupa augmentasi data, pemodelan dan implementasi.
- 
 	Penelitian ini dibangun berbasis website menggunakan bahasa pemrograman 
 Python dengan framework flask untuk merancang interface. Aplikasi yang dibangun 
 memiliki fitur yang menampilkan tentang penelitian, penjelasan model, dataset,
