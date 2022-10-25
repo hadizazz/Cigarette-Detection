@@ -21,11 +21,11 @@ dari pengujian akan menunjukkan nilai akurasi 92.30%, presisi sebesar 95.65%,
 dan recall sebesar 88%. Hal ini menunjukkan sistem layak untuk digunakan.
 
 ## Framework
-1.Tensorflow
-2.MobilenetV2
-3.Flask
-4.OpenCV
-5.Matplotlib
+-  Tensorflow
+-  MobilenetV2
+-  Flask
+-  OpenCV
+-  Matplotlib
 
 ## Cara running aplikasi
 1. Lakukan instalasi packages dengan menggunakan 2 cara ini:
