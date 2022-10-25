@@ -1,0 +1,13 @@
+.addImage {
+    max-height: 40rem;
+    display: flex;
+    max-width: 10rem;
+    object-fit: cover;
+    justify-content: start;
+}
+
+.addImage img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
